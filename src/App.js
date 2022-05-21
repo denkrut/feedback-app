@@ -14,11 +14,7 @@ function App() {
   return (
     <FeedbackProvider>
       <Router>
-        <Header
-          bgColor="red"
-          textColor="blue"
-          text="Props to header from App"
-        />
+        <Header bgColor="red" textColor="blue" />
         <div className="container">
           <Routes>
             <Route

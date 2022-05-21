@@ -7,9 +7,9 @@ import { PropTypes } from "prop-types";
 
 function FeedbackItem({ item }) {
   const { deleteFeedback, editFeedback } = useContext(FeedbackContext);
-  const handleClick = () => {
-    console.log(123);
-  };
+  // const handleClick = () => {
+  //   console.log(123);
+  // };
   return (
     <Card>
       <div className="num-display">{item.rating}</div>
